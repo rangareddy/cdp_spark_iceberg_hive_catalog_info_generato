@@ -14,7 +14,7 @@ wget https://raw.githubusercontent.com/rangareddy/cdp_spark_iceberg_hive_catalog
 sh spark_iceberg_hive_catalog_info_generator.sh
 ```
 
-By default `spark_iceberg_hive_catalog_info_generator.sh` script will generate the **spark-shell** command script. If you want to generate the **pyspark** command you need to export the `IS_PYSPARK_SHELL=true`
+By default `spark_iceberg_hive_catalog_info_generator.sh` script will generate the **spark3-shell** command script. If you want to generate the **pyspark3** command you need to export the `IS_PYSPARK_SHELL=true`
 
 ```sh
 export IS_PYSPARK_SHELL=true
